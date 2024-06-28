@@ -12,8 +12,16 @@ def doAppleCost(val1, appleprice):
 
 # Take user input and assign variables
 apple_price = 0.25
-my_val1 = int(input(f"({apple_price}p per apple)How many apples would you like to buy: ")) # "2"
-total = doAppleCost(my_val1, apple_price)
+apple_limit = False
+apple_limit_count = 100
 
-# Print out the response the function gave us
-print(f"Total Cost : £{total:.2f}")
+# Parse string input into int
+my_val1 = int(input(f"({apple_price}p per apple)How many apples would you like to buy: ")) # "2"
+
+if my_val1>apple_limit_count:
+  print(f"We only have {apple_limit_count} left. Please select a reasonable amount")
+else:
+  # Calculate the cost of x amount of apples
+  total = doAppleCost(my_val1, apple_price)
+  # Print out the response the function gave us
+  print(f"Total Cost : £{total:.2f}")
