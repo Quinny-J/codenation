@@ -20,7 +20,7 @@ student = input("Are you a student Y/N: ".lower()) # "Y"
 #print("Hello, " + my_name)
 #print("You are " + my_age + " Years old")
 
-# Method 1 using fstrings
+# Method 1 using fstrings put the var inside {}
 print(f"Hello, {my_name} you are {my_age} Years old")
 # Method 2
 #print("Hello, " + my_name + " you are " + my_age + " Years old")
@@ -29,6 +29,6 @@ print(f"Hello, {my_name} you are {my_age} Years old")
 
 # Check user input and deal with it
 if student == "y":
-    print(student + " You are currently studying")
+    print("You are currently studying")
 else:
-    print(student + " You are not currently studying")
+    print("You are not currently studying")
