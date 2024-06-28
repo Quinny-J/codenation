@@ -1,3 +1,10 @@
+# + Addition
+# - Subtraction
+# * Multiply
+# / Division
+# ** IDK Decimal ?
+# % Percentage
+
 # Define some methods that the calc uses
 methods = ["sub", "mult", "div", "add", "perc", "dec"]
 
