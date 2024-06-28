@@ -13,16 +13,28 @@ def calculate(val1, val2, method):
     # check if we have the method requested
     if method in methods:
         if method == "mult":
+            showStatement = f"{val1} * {val2} = " + str(int(val1) * int(val2)) 
+            print(showStatement)
             return int(val1) * int(val2)
         elif method == "sub":
+            showStatement = f"{val1} - {val2} = " + str(int(val1) - int(val2)) 
+            print(showStatement)
             return int(val1) - int(val2)
         elif method == "add":
+            showStatement = f"{val1} + {val2} = " + str(int(val1) + int(val2)) 
+            print(showStatement)
             return int(val1) + int(val2)
         elif method == "div":
+            showStatement = f"{val1} / {val2} = " + str(int(val1) / int(val2)) 
+            print(showStatement)
             return int(val1) / int(val2)
         elif method == "perc":
+            showStatement = f"{val1} % {val2} = " + str(int(val1) % int(val2)) 
+            print(showStatement)
             return int(val1) % int(val2)
         elif method == "dec":
+            showStatement = f"{val1} ** {val2} = " + str(int(val1) ** int(val2)) 
+            print(showStatement)
             return int(val1) ** int(val2)
         else:
             return "Method not found"

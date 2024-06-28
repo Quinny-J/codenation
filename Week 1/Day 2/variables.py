@@ -67,4 +67,6 @@ my_method = input("Method (sub/mult/div/add): ") # "mult"
 my_val2 = input("Number 2: ") # "2"
 
 print(calculate(my_val1, my_val2, my_method))
+
+print(f"{1+1}")
     
