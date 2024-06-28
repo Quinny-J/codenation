@@ -16,8 +16,12 @@ student = input("Are you a student Y/N: ".lower()) # "Y"
 print(f"Hello, {my_name}")
 print(f"You are {my_age} Years old")
 
+# Method 1
 print(f"Hello, {my_name} you are {my_age} Years old")
+# Method 2
 print("Hello, " + my_name + " you are " + my_age + " Years old")
+# Method 3 - Many easier ways to do this
+print("Hello, {} you are {} Years old".format(my_name, my_age))
 
 # 2 ways of doing it
 print("Hello, " + my_name)
