@@ -33,4 +33,4 @@ my_method = input("Method (sub/mult/div/add/perc/dec): ") # "mult"
 my_val2 = input("Number 2: ") # "2"
 
 # Print out the response the function gave us
-print("Your result is : " + calculate(my_val1, my_val2, my_method))
+print(f"Your result is : {calculate(my_val1, my_val2, my_method)}")
