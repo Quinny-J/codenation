@@ -14,7 +14,7 @@ my_color = input("Please enter your fav color: ") # "cyan"
 #print("You are " + my_age + " Years old")
 
 # Method 1 using fstrings put the var inside {}
-if my_age.isNumeric():
+if my_age.isnumeric():
     print(f"Hello, {my_name} you are {my_age} Years old and your fav color is {my_color}")
 else:
     print("Please suppy an actual number")
