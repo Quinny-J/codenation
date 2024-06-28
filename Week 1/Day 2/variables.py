@@ -1,5 +1,5 @@
 # All Around The World - Print the 8th character
-print("All Around The World"[7].upper()) # Print the 8th char in uppercase. Always starts at 0 not 1 :)
+#print("All Around The World"[7].upper()) # Print the 8th char in uppercase. Always starts at 0 not 1 :)
 
 # Use and print a var
 # if your lazy make a var of a var instead of renaming  | mn = my_name not good practise at all 
