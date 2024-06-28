@@ -1,23 +1,26 @@
-# Take user input and assign it a variable
-my_name = input("Please enter your name: ") # "Josh"
-my_age = input("Please enter your age: ") # "21"
-my_color = input("Please enter your fav color: ") # "cyan"
-#student = input("Are you a student Y/N: ".lower()) # "Y"
+# Class is being used to store multiple vars in a catagory in this case strings
+class statusColors:
+    OKCYAN = '\033[96m' # Python likes ANSI :)
+    WARN = '\033[91m'
+    WHITE = '\033[0m'
 
-# Crazy magic
-# fstrings can include expresions in curly brackets
-#print(f"Hello, {my_name}")
-#print(f"You are {my_age} Years old")
+# Class is being used to store multiple vars in a catagory in this case fstrings
+class statusMsg:
+    UI = f'\033[0m[{statusColors.OKCYAN}UI{statusColors.WHITE}]'
+    OK = f'\033[0m[{statusColors.OKCYAN}OK{statusColors.WHITE}]'
+    WARN = f'\033[0m[{statusColors.WARN}WARN{statusColors.WHITE}]'
 
-# another way of doing it
-#print("Hello, " + my_name)
-#print("You are " + my_age + " Years old")
+# Class is being used to store multiple vars in a catagory in this case fstrings
+class userInfo:
+    my_name = input(f"{statusMsg.UI} Please enter your name: ") # "Josh"
+    my_age = input(f"{statusMsg.UI} Please enter your age: ") # "21"
+    my_color = input(f"{statusMsg.UI} Please enter your fav color: ") # "cyan"
 
-# Method 1 using fstrings put the var inside {}
-if my_age.isnumeric():
-    print(f"Hello, {my_name} you are {my_age} Years old and your fav color is {my_color}")
+# using fstrings put the var inside {}
+if userInfo.my_age.isnumeric():
+    print(f"{statusMsg.OK} Hello, {userInfo.my_name} you are {userInfo.my_age} Years old and your fav color is {userInfo.my_color}")
 else:
-    print("Please suppy an actual number")
+    print(f"{statusMsg.WARN} Please suppy an actual number")
 
 # Check user input and deal with it
 #if student == "y":
