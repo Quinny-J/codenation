@@ -42,6 +42,14 @@ else:
 methods = ["sub", "mult", "div", "add"]
 
 def calculate(val1, val2, method):
+
+    
+    if (val1.isnumeric() & val2.isnumeric()):
+        print(":) good user")
+    else:
+        print(":( bad user")
+        exit();
+
     if method in methods:
         if method == "mult":
             return int(val1) * int(val2)

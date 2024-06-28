@@ -1,7 +1,8 @@
 # Take user input and assign it a variable
 my_name = input("Please enter your name: ") # "Josh"
 my_age = input("Please enter your age: ") # "21"
-student = input("Are you a student Y/N: ".lower()) # "Y"
+my_color = input("Please enter your fav color: ") # "cyan"
+#student = input("Are you a student Y/N: ".lower()) # "Y"
 
 # Crazy magic
 # fstrings can include expresions in curly brackets
@@ -13,14 +14,13 @@ student = input("Are you a student Y/N: ".lower()) # "Y"
 #print("You are " + my_age + " Years old")
 
 # Method 1 using fstrings put the var inside {}
-print(f"Hello, {my_name} you are {my_age} Years old")
-# Method 2
-#print("Hello, " + my_name + " you are " + my_age + " Years old")
-# Method 3 - Many easier ways to do this
-#print("Hello, {} you are {} Years old".format(my_name, my_age))
+if my_age.isNumeric():
+    print(f"Hello, {my_name} you are {my_age} Years old and your fav color is {my_color}")
+else:
+    print("Please suppy an actual number")
 
 # Check user input and deal with it
-if student == "y":
-    print("You are currently studying")
-else:
-    print("You are not currently studying")
+#if student == "y":
+#    print("You are currently studying")
+#else:
+#    print("You are not currently studying")
