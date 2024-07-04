@@ -25,5 +25,5 @@
   * check if someone is under 18 and return response.
 * **[acts.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%201/acts.py)**
   * Tasks 1-5 + Extended task in one file from the lesson.
-* **[smooth_operators.py](https://github.com/Quinny-J/codenation/blob/main/Week%201/Day%202/smooth_operators.py)**
+* **[smooth_operators.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%202/smooth_operators.py)**
   * Random stuff from the lesson.
