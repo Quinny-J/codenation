@@ -36,7 +36,7 @@ for item in shopping_list:
 # List of items we want the count for
 items_to_count = ["egg", "kale", "stamps", "carrot", "orange juice"]
 
-# Display the number of items based of our count
+# Display the number of items based of our count dict
 for item in items_to_count:
     print(f"{item}: {shopping_item_count.get(item, 0)}")
 

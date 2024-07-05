@@ -22,6 +22,8 @@ print(fav_website)
 
 # This will sort our favorite websites alphabetically
 fav_website.sort()
+# This will sort our favorite websites alphabetically but reverse it 
+# fav_website.sort(reverse=True)
 # Display our updated favorite websites
 print(fav_website)
 

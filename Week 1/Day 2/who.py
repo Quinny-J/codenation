@@ -1,16 +1,19 @@
 # Class is being used to store multiple vars in a catagory in this case strings
+# You could also maybe use a dictionary instead
 class statusColors:
     OKCYAN = '\033[96m' # Python likes ANSI :)
     WARN = '\033[91m'
     WHITE = '\033[0m'
 
 # Class is being used to store multiple vars in a catagory in this case fstrings
+# You could also maybe use a dictionary instead
 class statusMsg:
     UI = f'\033[0m[{statusColors.OKCYAN}UI{statusColors.WHITE}]'
     OK = f'\033[0m[{statusColors.OKCYAN}OK{statusColors.WHITE}]'
     WARN = f'\033[0m[{statusColors.WARN}WARN{statusColors.WHITE}]'
 
-# Class is being used to store multiple vars in a catagory in this case fstrings
+# Class is being used to store multiple vars in a category in this case fstrings
+# You could also maybe use a dictionary instead
 class userInfo:
     my_name = input(f"{statusMsg.UI} Please enter your name: ") # "Josh"
     my_age = input(f"{statusMsg.UI} Please enter your age: ") # "21"

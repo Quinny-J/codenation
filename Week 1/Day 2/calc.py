@@ -5,7 +5,8 @@
 # ** IDK Decimal ?
 # % Percentage
 
-# Class is being used to store multiple vars in a catagory
+# Class is being used to store multiple vars in a category
+# You could also maybe use a dictionary instead
 class statusColors:
     OKCYAN = '\033[96m' # Python likes ANSI :)
     WARN = '\033[91m'
