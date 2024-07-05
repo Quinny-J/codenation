@@ -53,3 +53,7 @@
   * Copy the shopping list and use a method to display the number of the items (egg, kale, stamps, carrot, orange juice)
 * **[task3.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%202/Tasks/task3.py)**
   * Demonstrate several different methods
+* **[dict_task1.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%202/Tasks/dict_task1.py)**
+  * Create a dict with five fav songs using the artist as a key and add two artists using a method
+* **[dict_task1_stretch.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%202/Tasks/task3.py)**
+  * Use a for loop to print the song dict
