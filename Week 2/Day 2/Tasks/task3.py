@@ -1,3 +1,6 @@
+# Task 3
+# Demonstrate several different methods
+
 # Initial list
 fav_website = [
     "google.com",
@@ -32,3 +35,5 @@ additional_websites = ["docs.python.org", "wearecodenation.com"]
 # Its the same as append but except your using a list or array
 fav_website.extend(additional_websites)
 print(fav_website)
+
+#67.83

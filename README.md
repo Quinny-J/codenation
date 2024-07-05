@@ -27,3 +27,15 @@
   * Tasks 1-5 + Extended task in one file from the lesson.
 * **[smooth_operators.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%202/smooth_operators.py)**
   * Random stuff from the lesson.
+
+###### Week2/Day2
+* **[lists.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%202/lists.py)**
+  * Some things from the lesson
+
+###### Week2/Day2/Tasks
+* **[task1.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%202/Tasks/task1.py)**
+  * Make a list of 3 fav websites and add another two using a method and finally remove the last one 
+* **[task2.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%202/Tasks/task2.py)**
+  * Copy the shopping list and use a method to display the number of the items (egg, kale, stamps, carrot, orange juice)
+* **[task3.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%202/Tasks/task3.py)**
+  * Demonstrate several different methods
