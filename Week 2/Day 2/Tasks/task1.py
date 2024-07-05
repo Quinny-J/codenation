@@ -11,7 +11,7 @@ fav_website = [
 # print my string
 print(fav_website)
 
-# daa two sits to my list
+# add two sites to my list
 fav_website.append("docs.python.org")
 fav_website.append("github.com/Quinny-J")
 
