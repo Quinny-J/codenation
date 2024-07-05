@@ -28,6 +28,20 @@
 * **[smooth_operators.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%202/smooth_operators.py)**
   * Random stuff from the lesson.
 
+###### Week2/Day1/Tasks
+* **[task1.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%201/Tasks/task1.py)**
+  * Create a var called password and check how many letters and if it has min 8 
+* **[task2.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%201/Tasks/task2.py)**
+  * Create a var called num and check if can be div by 3 or 5
+* **[task3.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%201/Tasks/task3.py)**
+  * Create a var called num and check if can be div by 3 or 7
+* **[task4.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%201/Tasks/task4.py)**
+  * make it so london and London get accepted as answers
+* **[task5.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%201/Tasks/task5.py)**
+  * Check if the word starts and end with the same letters
+* **[task6.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%201/Tasks/task6.py)**
+  * Create a var called word and check for paladrome (Stretch activity)
+
 ###### Week2/Day2
 * **[lists.py](https://github.com/Quinny-J/codenation/blob/main/Week%202/Day%202/lists.py)**
   * Some things from the lesson

@@ -1,6 +1,6 @@
 #
 # Task 4
-# England captial make is so london and London get accepted as answers
+# make it so london and London get accepted as answers
 print("What is the capital of England?")
 
 answer = input("Type your answer here: ").lower().strip()

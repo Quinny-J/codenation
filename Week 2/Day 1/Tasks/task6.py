@@ -7,7 +7,6 @@ word = "racecar"
 # reversed_word = reversed(word)
 reversed_word = word[::-1]
 
-reversed
 if word == reversed_word:
     print(f"{word} is the same forwards and backwards")
 else:
