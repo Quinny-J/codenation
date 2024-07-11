@@ -6,7 +6,7 @@ wrd = input("What word would you like to use : ")
 
 baseL = input("What letter would you like to replace in " + wrd + ": ")
 
-editL = input("What letter would you reaplce it with : ")
+editL = input("What letter would you replace it with : ")
 
 print(wrd.replace(baseL, editL))
     

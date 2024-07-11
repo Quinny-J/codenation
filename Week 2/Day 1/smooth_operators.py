@@ -83,7 +83,7 @@
 
 day = "Saturday"
 
-if day == "Saturaday" or day == "Sunday":
+if day == "Saturday" or day == "Sunday":
     print("Its the weekend")
 else:
     print('Its not the weekend')
