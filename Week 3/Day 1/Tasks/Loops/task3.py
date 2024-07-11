@@ -4,7 +4,7 @@
 # Create a var to add all the numbers to
 sum_numbers = 0
 
-# i = 100 at this point so it loops 100 times
+# i = 0 at this point then will go up one by one so it loops 100 times
 for i in range(1, 101):
     # Add the current i number we are on to our sum_numbers var
     sum_numbers += i
