@@ -22,7 +22,8 @@ methods = ["sub", "mult", "div", "add", "perc", "dec"]
 
 # calculate(val1, cal2, method)
 def calculate(val1, val2, method):
-    # check if we have the method requested
+    # check if we have the method requested#
+    
     if method in methods:
         if method == "mult":
             showStatement = f"{val1} * {val2} = " + str(int(val1) * int(val2)) 
