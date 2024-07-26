@@ -1,0 +1,17 @@
+
+
+
+• Consist of at least 5 questions
+• Be multiple choice (1, 2, 3, 4 - A, B, C, D etc.)
+• Handle an incorrect input (5, E, a, etc.)
+• Award a user 5 points for a correct answer
+• Remove 2 points for an incorrect answer
+• Show the total at the end with a relevant message
+
+If you have time, why not try:
+• Utilising the Colorama library for more customisation
+• Giving the questions in a random order
+• Allowing the user to play again at the end to see if they beat their last score?
+
+using a txt file to store score or high scores
+
